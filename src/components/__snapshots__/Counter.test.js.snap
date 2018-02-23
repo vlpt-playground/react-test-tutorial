@@ -6,7 +6,7 @@ exports[`Counter matches snapshot 1`] = `
     카운터
   </h1>
   <h2>
-    1
+    700
   </h2>
   <button
     onClick={[Function]}

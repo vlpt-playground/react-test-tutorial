@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NamesContainer matches snapshot 1`] = `
+<Connect(NamesContainer)>
+  <NamesContainer
+    NamesActions={
+      Object {
+        "changeInput": [Function],
+        "default": [Function],
+        "insert": [Function],
+      }
+    }
+    input=""
+    names={Array []}
+  >
+    <NameForm
+      onChange={[Function]}
+      onSubmit={[Function]}
+      value=""
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <label>
+          이름
+        </label>
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <button
+          type="submit"
+        >
+          등록
+        </button>
+      </form>
+    </NameForm>
+    <NameList
+      names={Array []}
+    >
+      <ul />
+    </NameList>
+  </NamesContainer>
+</Connect(NamesContainer)>
+`;

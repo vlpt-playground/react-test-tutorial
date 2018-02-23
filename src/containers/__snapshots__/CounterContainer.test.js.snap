@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterContainer matches snapshot 1`] = `
+<Connect(CounterContainer)>
+  <CounterContainer
+    CounterActions={
+      Object {
+        "decrease": [Function],
+        "default": [Function],
+        "increase": [Function],
+      }
+    }
+    number={0}
+  >
+    <Counter
+      onDecrease={[Function]}
+      onIncrease={[Function]}
+      value={0}
+    >
+      <div>
+        <h1>
+          카운터
+        </h1>
+        <h2>
+          0
+        </h2>
+        <button
+          onClick={[Function]}
+        >
+          +
+        </button>
+        <button
+          onClick={[Function]}
+        >
+          -
+        </button>
+      </div>
+    </Counter>
+  </CounterContainer>
+</Connect(CounterContainer)>
+`;

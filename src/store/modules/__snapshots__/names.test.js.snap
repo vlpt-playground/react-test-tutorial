@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`names actions should create actions 1`] = `
+Array [
+  Object {
+    "payload": "input",
+    "type": "names/CHANGE_INPUT",
+  },
+  Object {
+    "payload": "name",
+    "type": "names/INSERT",
+  },
+]
+`;
