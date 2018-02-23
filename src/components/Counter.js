@@ -1,18 +1,8 @@
 import React, { Component } from 'react';
 
 class Counter extends Component {
-  state = {
-    value: 1
-  }
-  onIncrease = () => {
-    this.setState(({value}) => ({ value: value + 1 }));
-  }
-  onDecrease = () => {
-    this.setState(({value}) => ({ value: value - 1 }));
-  }
   render() {
-    const { value } = this.state;
-    const { onIncrease, onDecrease } = this;
+    const { onIncrease, onDecrease, value } = this.props;
     return (
       <div>
         <h1>카운터</h1>

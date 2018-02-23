@@ -2,52 +2,22 @@
 
 exports[`App matches snapshot 1`] = `
 <div>
-  <div>
-    <h1>
-      카운터
-    </h1>
-    <h2>
-      1
-    </h2>
-    <button
-      onClick={[Function]}
-    >
-      +
-    </button>
-    <button
-      onClick={[Function]}
-    >
-      -
-    </button>
-  </div>
+  <Counter />
   <hr />
   <h1>
     이름 목록
   </h1>
-  <form
+  <NameForm
+    onInsert={[Function]}
     onSubmit={[Function]}
-  >
-    <label>
-      이름
-    </label>
-    <input
-      onChange={[Function]}
-      type="text"
-      value=""
-    />
-    <button
-      type="submit"
-    >
-      등록
-    </button>
-  </form>
-  <ul>
-    <li>
-      벨로퍼트
-    </li>
-    <li>
-      김민준
-    </li>
-  </ul>
+  />
+  <NameList
+    names={
+      Array [
+        "벨로퍼트",
+        "김민준",
+      ]
+    }
+  />
 </div>
 `;
